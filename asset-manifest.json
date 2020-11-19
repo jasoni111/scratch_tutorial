@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/scratch_tutorial/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/scratch_tutorial/static/js/main.6770fb9e.chunk.js",
+    "main.js.map": "/scratch_tutorial/static/js/main.6770fb9e.chunk.js.map",
+    "runtime-main.js": "/scratch_tutorial/static/js/runtime-main.4caaf862.js",
+    "runtime-main.js.map": "/scratch_tutorial/static/js/runtime-main.4caaf862.js.map",
+    "static/js/2.67ad5af8.chunk.js": "/scratch_tutorial/static/js/2.67ad5af8.chunk.js",
+    "static/js/2.67ad5af8.chunk.js.map": "/scratch_tutorial/static/js/2.67ad5af8.chunk.js.map",
+    "static/js/3.a0412409.chunk.js": "/scratch_tutorial/static/js/3.a0412409.chunk.js",
+    "static/js/3.a0412409.chunk.js.map": "/scratch_tutorial/static/js/3.a0412409.chunk.js.map",
+    "index.html": "/scratch_tutorial/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/scratch_tutorial/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.67ad5af8.chunk.js.LICENSE.txt": "/scratch_tutorial/static/js/2.67ad5af8.chunk.js.LICENSE.txt",
+    "static/media/logo.103b5fa1.svg": "/scratch_tutorial/static/media/logo.103b5fa1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4caaf862.js",
+    "static/js/2.67ad5af8.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.6770fb9e.chunk.js"
+  ]
+}
