@@ -3,7 +3,7 @@ import React, { useState } from "react"
 import { render } from 'react-dom'
 import './App.css';
 import { Header } from './components/Header';
-import MoveAnimation from "./components/animation"
+import { MoveAnimation, CoordinateAnimation, HorizontalBounce } from "./components/animation"
 
 
 
@@ -39,6 +39,7 @@ function App() {
       </a>
 
       <h1>Your first Scratch program</h1>
+      <HorizontalBounce></HorizontalBounce>
 
       <div><img src={require("./icons/Create.png").default} /></div>
       <div>
@@ -60,11 +61,7 @@ function App() {
 
       <div>TODO:explain coordinate</div>
       {table(<img src={require('./code/code02.png').default} />,
-        <div>
-          <img src={require('./icons/ScratchCat.png').default} />
-          <div>TODO: animation</div>
-        </div>
-
+        <CoordinateAnimation />
       )}
 
       {table(<img src={require('./code/code03.png').default} />,
