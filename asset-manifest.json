@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/scratch_tutorial/static/css/main.52223221.chunk.css",
-    "main.js": "/scratch_tutorial/static/js/main.5c1458ce.chunk.js",
-    "main.js.map": "/scratch_tutorial/static/js/main.5c1458ce.chunk.js.map",
+    "main.js": "/scratch_tutorial/static/js/main.1e82ed00.chunk.js",
+    "main.js.map": "/scratch_tutorial/static/js/main.1e82ed00.chunk.js.map",
     "runtime-main.js": "/scratch_tutorial/static/js/runtime-main.1b76315e.js",
     "runtime-main.js.map": "/scratch_tutorial/static/js/runtime-main.1b76315e.js.map",
     "static/css/2.43b2b750.chunk.css": "/scratch_tutorial/static/css/2.43b2b750.chunk.css",
@@ -31,6 +31,6 @@
     "static/css/2.43b2b750.chunk.css",
     "static/js/2.95546994.chunk.js",
     "static/css/main.52223221.chunk.css",
-    "static/js/main.5c1458ce.chunk.js"
+    "static/js/main.1e82ed00.chunk.js"
   ]
 }
