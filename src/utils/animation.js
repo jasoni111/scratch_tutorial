@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback, useRef } from "react";
+import React, { useState, useEffect, useRef } from "react";
 // import rd3 from 'react-d3-library'
 
 function degToRad(degrees) {
@@ -184,20 +184,18 @@ export function MoveAnimation(props) {
   }, []);
 
   return (
-    <div>
-      <svg viewBox="0 0 1000 1000" width="400" height="400">
-        <BoundingBox />
-        <image
-          href={require("../icons/ScratchCat.png").default}
-          style={{
-            height: "200",
-            width: "200",
-            x: String(state.x),
-            y: String(400),
-          }}
-        />
-      </svg>
-    </div>
+    <svg viewBox="0 0 1000 1000" width="400px" height="400px">
+      <BoundingBox />
+      <image
+        href={require("./ScratchCat.png").default}
+        style={{
+          height: "200px",
+          width: "200px",
+          x: String(state.x),
+          y: String(400),
+        }}
+      />
+    </svg>
   );
 }
 
@@ -220,14 +218,14 @@ export function CoordinateAnimation(props) {
 
   return (
     <div>
-      <svg viewBox="0 0 1000 1000" width="400" height="400">
+      <svg viewBox="0 0 1000 1000" width="400px" height="400px">
         <BoundingBox />
 
         <image
-          href={require("../icons/ScratchCat.png").default}
+          href={require("./ScratchCat.png").default}
           style={{
-            height: "200",
-            width: "200",
+            height: "200px",
+            width: "200px",
             x: String(400 + state.x),
             y: String(400 + state.y),
           }}
@@ -309,7 +307,7 @@ export function RotateAnimation(props) {
 
   return (
     <div>
-      <svg viewBox="0 0 1000 1000" width="400" height="400">
+      <svg viewBox="0 0 1000 1000" width="400px" height="400px">
         <BoundingBox />
 
         <text transform="translate(500 270)" fontSize={70}>
@@ -331,7 +329,7 @@ export function RotateAnimation(props) {
         </g>
       </svg>
 
-      <svg viewBox="0 0 1000 1000" width="400" height="400">
+      <svg viewBox="0 0 1000 1000" width="400px" height="400px">
         <BoundingBox />
 
         <g
@@ -342,10 +340,10 @@ export function RotateAnimation(props) {
           }) translate(-100,-100)`}
         >
           <image
-            href={require("../icons/ScratchCat.png").default}
+            href={require("./ScratchCat.png").default}
             style={{
-              height: "200",
-              width: "200",
+              height: "200px",
+              width: "200px",
             }}
           />
         </g>
@@ -429,7 +427,7 @@ export function HorizontalBounce() {
         onChange={onChange}
       ></input>
       <div>{`${state.displayangle}deg`} </div>
-      <svg viewBox="0 0 1000 1000" width="400" height="400">
+      <svg viewBox="0 0 1000 1000" width="400px" height="400px">
         <BoundingBox />
 
         <g transform="translate (500 500)">
@@ -487,7 +485,7 @@ export function HorizontalBounce() {
       </svg>
 
       {/* bounding box */}
-      <svg viewBox="0 0 1000 1000" width="400" height="400">
+      <svg viewBox="0 0 1000 1000" width="400px" height="400px">
         <rect
           style={{
             width: "1000",
@@ -502,15 +500,15 @@ export function HorizontalBounce() {
 
         {/* Two horizontal bar */}
         <rect
-          width="1000"
-          height="30"
+          width="1000px"
+          height="30px"
           x="0"
           y="890"
           style={{ fill: "green" }}
         />
         <rect
-          width="1000"
-          height="30"
+          width="1000px"
+          height="30px"
           x="0"
           y="110"
           style={{ fill: "green" }}
@@ -559,11 +557,11 @@ export function FollowMouse() {
 
   return (
     <div>
-      <svg viewBox="0 0 1000 1000" width="400" height="400" ref={measuredRef}>
+      <svg viewBox="0 0 1000 1000" width="400px" height="400px" ref={measuredRef}>
         <rect
           style={{
-            width: "1000",
-            height: "1000",
+            width: "1000px",
+            height: "1000px",
             strokeWidth: "10",
             stroke: "black",
             fill: "transparent",
@@ -572,10 +570,10 @@ export function FollowMouse() {
 
         <g transform="translate(-100,-100)">
           <image
-            href={require("../icons/ScratchCat.png").default}
+            href={require("./ScratchCat.png").default}
             style={{
-              height: "200",
-              width: "200",
+              height: "200px",
+              width: "200px",
               x: clip(
                 ((mousePosition.x - state.x) / state.width) * 1000,
                 0,
