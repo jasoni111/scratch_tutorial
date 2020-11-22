@@ -20,6 +20,7 @@ const Coordinate = () => {
   return (
     <Stack horizontalAlign="start">
       <Title title={"Coordinate"} />
+      <Title title={"座標"} />
 
       <BR />
 
@@ -33,6 +34,10 @@ const Coordinate = () => {
         vertical postion of an object.
       </Stack>
 
+      <Stack>
+        格中每一個點都是一個XY座標。X座標對應水平位置，Y座標對應垂直位置。
+      </Stack>
+
       <BR />
 
       <Table code={<ImgCode3 />} result={<FollowMouse />} />
@@ -43,6 +48,10 @@ const Coordinate = () => {
         Try to move your mouse within this webpage. You will find that the cat
         is following your mouse horizontaly. This is because you set its x-asix
         position to the x-position of your mouse.
+      </Stack>
+
+      <Stack>
+        嘗試在網頁中移動你的滑鼠。你會發現圖中的貓會在水平方向上與你的滑鼠一齊移動，這是因為它的X座標一直與滑鼠的X座標相同。
       </Stack>
 
       <BR />

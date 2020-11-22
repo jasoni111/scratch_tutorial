@@ -7,6 +7,7 @@ const ForLoop = () => {
   return (
     <Stack>
       <Title title={"For Loop"} />
+      <Title title={"無限循環"} />
       <BR />
     </Stack>
   );

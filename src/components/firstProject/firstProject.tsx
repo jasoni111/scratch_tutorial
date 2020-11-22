@@ -36,6 +36,7 @@ const FirstProject = () => {
   return (
     <Stack horizontalAlign="start">
       <Title title={"Your first Scratch project"} />
+      <Title title={"你第一個Scratch專案"} />
 
       <BR />
 
@@ -47,6 +48,13 @@ const FirstProject = () => {
             scratch
           </a>{" "}
           and press "Create" to start you first Scratch project
+        </Text>
+        <Text>
+          前往{" "}
+          <a href="https://scratch.mit.edu/" rel="noreferrer" target="_blank">
+            scratch
+          </a>{" "}
+          ，然後按 ”創建“ 以開始你第一個Scratch專案
         </Text>
       </Stack>
 
@@ -82,6 +90,28 @@ const FirstProject = () => {
       <Stack horizontal verticalAlign="end">
         This is commonly used to create a infintie loop and keep updating
         things.
+      </Stack>
+
+      <BR />
+
+      <Stack horizontal verticalAlign="end">
+        <ImgWhenFlagClicked /> 可以在 “事件” 部分找到，而
+        <ImgForever /> 可以在 “控制” 部分找到。按左方圖像拖放上述方塊，
+      </Stack>
+
+      <Stack horizontal verticalAlign="end">
+        然後按
+        <ImgFlag />
+        以執行該程序。當
+        <ImgFlag />
+        按下時，Scratch會執行
+        <ImgWhenFlagClicked />
+        下方的方塊。
+      </Stack>
+
+      <Stack horizontal verticalAlign="end">
+        <ImgForever />
+        是一個控制方塊，它會不停執行包裹著的方塊，常用來創建一個無限循環以及更新物件。
       </Stack>
 
       <BR />

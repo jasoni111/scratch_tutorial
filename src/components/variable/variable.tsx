@@ -7,6 +7,7 @@ const Variable = () => {
   return (
     <Stack>
       <Title title={"Variable"} />
+      <Title title={"變量"} />
       <BR />
       <Stack>TODO: explain variable</Stack>
       <BR />

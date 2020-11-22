@@ -14,6 +14,7 @@ const Clone = () => {
   return (
     <Stack>
       <Title title={"Clone"} />
+      <Title title={"複製"} />
       <BR />
       <ImgCloneWithoutSignal />
       <BR />
