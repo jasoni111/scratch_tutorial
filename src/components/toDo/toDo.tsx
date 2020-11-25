@@ -6,7 +6,7 @@ import { BR, Title } from "../../utils";
 const TODO = () => {
   return (
     <Stack>
-      <Title title={"toDo"} />
+      <Title title={"TODO"} />
       <Stack>TODO: Change Icon & page name</Stack>
       <BR />
     </Stack>

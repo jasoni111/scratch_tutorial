@@ -6,8 +6,7 @@ import { HorizontalBounce, BR, Title } from "../../utils";
 const ImgReflectionAngles = () => (
   <Image
     src={require("./Reflection_angles.svg").default}
-    width="30px"
-    height="30px"
+    height="20%"
     alt="./Reflection_angles.svg"
   />
 );
@@ -42,10 +41,9 @@ const CollisionAndMomentum = () => {
         When bouncing on a horizontal plane, the equation we use is setting the
         direction to (180-θ). Geometrically, this means that the sprite starts
         from facing doward, and start rotating anit-colckwise the original
-        angle(the outer arrow). TODO: more explaination
+        angle(the outer arrow). In the figure above, x-axis acts as the normal to the surface and the doted arrow shows the reflected direction.
       </Stack>
-      <Stack>TODO: ontouching.. </Stack>
-      <Stack>TODO: explain angle of incident </Stack>
+
     </Stack>
   );
 };

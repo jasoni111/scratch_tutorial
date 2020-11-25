@@ -11,6 +11,7 @@ import { ForLoop } from "./components/forLoop";
 import { Clone } from "./components/clone";
 import { Event } from "./components/event";
 import { Variable } from "./components/variable";
+import {MultipleScripts} from "./components/multipleScripts"
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
         <FirstProject />
         <Coordinate />
         <DirectionAndMove />
+        <MultipleScripts/>
+        
         <CollisionAndMomentum />
         <ForLoop />
         <Clone />
