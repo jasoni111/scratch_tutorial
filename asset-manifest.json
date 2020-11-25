@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/scratch_tutorial/static/css/main.e9fd3fdb.chunk.css",
-    "main.js": "/scratch_tutorial/static/js/main.af783af0.chunk.js",
-    "main.js.map": "/scratch_tutorial/static/js/main.af783af0.chunk.js.map",
-    "runtime-main.js": "/scratch_tutorial/static/js/runtime-main.e92ea31e.js",
-    "runtime-main.js.map": "/scratch_tutorial/static/js/runtime-main.e92ea31e.js.map",
-    "static/js/2.ae1416b8.chunk.js": "/scratch_tutorial/static/js/2.ae1416b8.chunk.js",
-    "static/js/2.ae1416b8.chunk.js.map": "/scratch_tutorial/static/js/2.ae1416b8.chunk.js.map",
-    "static/js/3.3b22c6d4.chunk.js": "/scratch_tutorial/static/js/3.3b22c6d4.chunk.js",
-    "static/js/3.3b22c6d4.chunk.js.map": "/scratch_tutorial/static/js/3.3b22c6d4.chunk.js.map",
+    "main.js": "/scratch_tutorial/static/js/main.f34d09b1.chunk.js",
+    "main.js.map": "/scratch_tutorial/static/js/main.f34d09b1.chunk.js.map",
+    "runtime-main.js": "/scratch_tutorial/static/js/runtime-main.37df5318.js",
+    "runtime-main.js.map": "/scratch_tutorial/static/js/runtime-main.37df5318.js.map",
+    "static/js/2.46d754c6.chunk.js": "/scratch_tutorial/static/js/2.46d754c6.chunk.js",
+    "static/js/2.46d754c6.chunk.js.map": "/scratch_tutorial/static/js/2.46d754c6.chunk.js.map",
+    "static/js/3.df0d53b9.chunk.js": "/scratch_tutorial/static/js/3.df0d53b9.chunk.js",
+    "static/js/3.df0d53b9.chunk.js.map": "/scratch_tutorial/static/js/3.df0d53b9.chunk.js.map",
     "index.html": "/scratch_tutorial/index.html",
     "static/css/main.e9fd3fdb.chunk.css.map": "/scratch_tutorial/static/css/main.e9fd3fdb.chunk.css.map",
-    "static/js/2.ae1416b8.chunk.js.LICENSE.txt": "/scratch_tutorial/static/js/2.ae1416b8.chunk.js.LICENSE.txt",
+    "static/js/2.46d754c6.chunk.js.LICENSE.txt": "/scratch_tutorial/static/js/2.46d754c6.chunk.js.LICENSE.txt",
     "static/media/Reflection_angles.svg": "/scratch_tutorial/static/media/Reflection_angles.af37c050.svg",
     "static/media/ScratchCat.png": "/scratch_tutorial/static/media/ScratchCat.17b4b681.png",
     "static/media/changeDir.svg": "/scratch_tutorial/static/media/changeDir.6cd547e2.svg",
@@ -24,9 +24,9 @@
     "static/media/whenFlagClicked.svg": "/scratch_tutorial/static/media/whenFlagClicked.47e7ce99.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e92ea31e.js",
-    "static/js/2.ae1416b8.chunk.js",
+    "static/js/runtime-main.37df5318.js",
+    "static/js/2.46d754c6.chunk.js",
     "static/css/main.e9fd3fdb.chunk.css",
-    "static/js/main.af783af0.chunk.js"
+    "static/js/main.f34d09b1.chunk.js"
   ]
 }
