@@ -8,14 +8,18 @@ type TableProps = {
 
 const Table = (props: TableProps) => (
   <table style={{ width: "100%" }}>
-    <tr>
-      <th>code</th>
-      <th>expected result</th>
-    </tr>
-    <tr>
-      <td>{props.code}</td>
-      <td>{props.result}</td>
-    </tr>
+    <thead>
+      <tr>
+        <th>code</th>
+        <th>expected result</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>{props.code}</td>
+        <td>{props.result}</td>
+      </tr>
+    </tbody>
   </table>
 );
 

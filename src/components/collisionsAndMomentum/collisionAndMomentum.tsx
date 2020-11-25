@@ -23,13 +23,12 @@ const CollisionAndMomentum = () => {
 
       {/* TODO: make this to easy to read */}
       <Stack>
-        /* TODO: make this to easy to read */ In the diagram, a light ray PO
-        strikes a vertical mirror at point O, and the reflected ray is OQ. By
-        projecting an imaginary line through point O perpendicular to the
-        mirror, known as the normal, we can measure the angle of incidence, θi
-        and the angle of reflection, θr. The law of reflection states that θi =
-        θr, or in other words, the angle of incidence equals the angle of
-        reflection.
+        In the diagram, a light ray PO strikes a vertical mirror at point O, and
+        the reflected ray is OQ. By projecting an imaginary line through point O
+        perpendicular to the mirror, known as the normal, we can measure the
+        angle of incidence, θi and the angle of reflection, θr. The law of
+        reflection states that θi = θr, or in other words, the angle of
+        incidence equals the angle of reflection.
       </Stack>
 
       <HorizontalBounce />

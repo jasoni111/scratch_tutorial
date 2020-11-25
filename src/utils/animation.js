@@ -413,7 +413,6 @@ export function HorizontalBounce() {
       };
     });
   };
-  console.log(180 + state.displayangle);
 
   return (
     <div>
@@ -422,7 +421,7 @@ export function HorizontalBounce() {
         min="0"
         max="359"
         defaultValue={state.displayangle}
-        class="slider"
+        className="slider"
         id="myRange"
         onChange={onChange}
       ></input>
