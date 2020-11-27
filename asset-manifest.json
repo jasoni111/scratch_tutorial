@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/scratch_tutorial/static/css/main.c464de6b.chunk.css",
-    "main.js": "/scratch_tutorial/static/js/main.a178b260.chunk.js",
-    "main.js.map": "/scratch_tutorial/static/js/main.a178b260.chunk.js.map",
-    "runtime-main.js": "/scratch_tutorial/static/js/runtime-main.c3c7f1c5.js",
-    "runtime-main.js.map": "/scratch_tutorial/static/js/runtime-main.c3c7f1c5.js.map",
-    "static/js/2.fb0b7c09.chunk.js": "/scratch_tutorial/static/js/2.fb0b7c09.chunk.js",
-    "static/js/2.fb0b7c09.chunk.js.map": "/scratch_tutorial/static/js/2.fb0b7c09.chunk.js.map",
-    "static/js/3.e6f96a08.chunk.js": "/scratch_tutorial/static/js/3.e6f96a08.chunk.js",
-    "static/js/3.e6f96a08.chunk.js.map": "/scratch_tutorial/static/js/3.e6f96a08.chunk.js.map",
+    "main.js": "/scratch_tutorial/static/js/main.5b0715d4.chunk.js",
+    "main.js.map": "/scratch_tutorial/static/js/main.5b0715d4.chunk.js.map",
+    "runtime-main.js": "/scratch_tutorial/static/js/runtime-main.0b57ea22.js",
+    "runtime-main.js.map": "/scratch_tutorial/static/js/runtime-main.0b57ea22.js.map",
+    "static/js/2.edeb3dc6.chunk.js": "/scratch_tutorial/static/js/2.edeb3dc6.chunk.js",
+    "static/js/2.edeb3dc6.chunk.js.map": "/scratch_tutorial/static/js/2.edeb3dc6.chunk.js.map",
+    "static/js/3.5f8be85d.chunk.js": "/scratch_tutorial/static/js/3.5f8be85d.chunk.js",
+    "static/js/3.5f8be85d.chunk.js.map": "/scratch_tutorial/static/js/3.5f8be85d.chunk.js.map",
     "index.html": "/scratch_tutorial/index.html",
     "static/css/main.c464de6b.chunk.css.map": "/scratch_tutorial/static/css/main.c464de6b.chunk.css.map",
-    "static/js/2.fb0b7c09.chunk.js.LICENSE.txt": "/scratch_tutorial/static/js/2.fb0b7c09.chunk.js.LICENSE.txt",
+    "static/js/2.edeb3dc6.chunk.js.LICENSE.txt": "/scratch_tutorial/static/js/2.edeb3dc6.chunk.js.LICENSE.txt",
     "static/media/BouncePad.bab314e0.svg": "/scratch_tutorial/static/media/BouncePad.bab314e0.svg",
     "static/media/Reflection_angles.svg": "/scratch_tutorial/static/media/Reflection_angles.799d3fc1.svg",
     "static/media/ScratchCat.png": "/scratch_tutorial/static/media/ScratchCat.17b4b681.png",
@@ -23,6 +23,8 @@
     "static/media/code01.png": "/scratch_tutorial/static/media/code01.c1ed421c.png",
     "static/media/code02.png": "/scratch_tutorial/static/media/code02.593386b1.png",
     "static/media/code03.png": "/scratch_tutorial/static/media/code03.e1baa0e4.png",
+    "static/media/codeBall.png": "/scratch_tutorial/static/media/codeBall.d242eca6.png",
+    "static/media/codeSprite.png": "/scratch_tutorial/static/media/codeSprite.66a2add5.png",
     "static/media/costumes.png": "/scratch_tutorial/static/media/costumes.77ab13b2.png",
     "static/media/flag.svg": "/scratch_tutorial/static/media/flag.9a8023df.svg",
     "static/media/forever.svg": "/scratch_tutorial/static/media/forever.0be1bf84.svg",
@@ -31,9 +33,9 @@
     "static/media/whenFlagClicked.svg": "/scratch_tutorial/static/media/whenFlagClicked.a19b93d8.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c3c7f1c5.js",
-    "static/js/2.fb0b7c09.chunk.js",
+    "static/js/runtime-main.0b57ea22.js",
+    "static/js/2.edeb3dc6.chunk.js",
     "static/css/main.c464de6b.chunk.css",
-    "static/js/main.a178b260.chunk.js"
+    "static/js/main.5b0715d4.chunk.js"
   ]
 }
