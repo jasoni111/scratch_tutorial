@@ -4,12 +4,14 @@ import {
   HorizontalBounce,
   FollowMouse,
   RotateAnimation,
+  CloneAnimation
 } from "./animation";
 import { Table, BR, Title, SubTitle } from "./helper";
 
 export {
   MoveAnimation,
   CoordinateAnimation,
+  CloneAnimation,
   HorizontalBounce,
   FollowMouse,
   RotateAnimation,

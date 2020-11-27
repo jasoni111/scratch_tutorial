@@ -556,7 +556,12 @@ export function FollowMouse() {
 
   return (
     <div>
-      <svg viewBox="0 0 1000 1000" width="400px" height="400px" ref={measuredRef}>
+      <svg
+        viewBox="0 0 1000 1000"
+        width="400px"
+        height="400px"
+        ref={measuredRef}
+      >
         <rect
           style={{
             width: "1000px",
@@ -588,5 +593,64 @@ export function FollowMouse() {
   );
 }
 
-// export MoveAnimation;
-// export CoordinateAnimation;
+export function CloneAnimation() {
+  const [state, setState] = useState({
+    x: -1,
+    y: 0,
+    rects: [],
+    completeLoading: false,
+  });
+  useEffect(() => {
+    function update() {
+      // console.log("gg");
+      setState((prevState) => {
+        let x = prevState.x;
+        let y = prevState.y;
+        let rects = [...prevState.rects];
+        if (x++ > 5) {
+          x = 0;
+          y++;
+        }
+        if (y < 5) {
+          rects.push([x, y]);
+        }
+
+        return {
+          x: x,
+          y: y,
+          rects: rects,
+        };
+      });
+    }
+    let interval = setInterval(update, 100);
+    return () => {
+      clearInterval(interval);
+    };
+  }, []);
+  // let rendered ret = [];
+
+  return (
+    <div>
+      {state.text}
+      <svg viewBox="0 0 1000 1000" width="400px" height="400px">
+        <BoundingBox />
+        {state.rects.map((items) => {
+          let [x, y] = items;
+          console.log(`${x}||${y}`);
+          return (
+            <rect
+              x={20 + x * 135}
+              y={20 + y * 45}
+              width={125}
+              height={40}
+              strokeWidth={3}
+              stroke="black"
+              fill="aquamarine"
+              key={`x:${x}y:${y}`}
+            />
+          );
+        })}
+      </svg>
+    </div>
+  );
+}

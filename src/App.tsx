@@ -28,8 +28,8 @@ function App() {
 
         <CollisionAndMomentum />
 
-        <Event />
         <Variable />
+        <Event />
       </Stack>
     </Stack>
   );
