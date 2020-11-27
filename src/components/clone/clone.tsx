@@ -34,7 +34,17 @@ const Clone = () => {
         following:(TODO: a flying ball that destroy stuff on the path)
       </Stack>
       <BR />
-      <CloneAnimation />
+
+      <iframe
+        src="https://scratch.mit.edu/projects/455579061/embed"
+        allowTransparency={true}
+        width="485"
+        height="402"
+        frameBorder="0"
+        scrolling="no"
+      ></iframe>
+
+      {/* <CloneAnimation /> */}
     </Stack>
   );
 };
