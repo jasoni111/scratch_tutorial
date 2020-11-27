@@ -36,9 +36,9 @@ const Variable = () => {
         <ul>
           <li> display "you win" when you have destroied all blocks.</li>
           <li>
-            {" "}
             increase the speed of your ball when you reach a specific score.
           </li>
+          <li>display "you lose" when you lose.</li>
         </ul>
       </Stack>
       <BR />
