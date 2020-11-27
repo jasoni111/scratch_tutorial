@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 60 25" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 155 40">
+    <path d="M 20 0 
+    L 130 0 
+    A 20 20 0 0 1 130 40  
+    L 20 40
+    A 20 20 0 0 1 20 0" 
+     fill="lightseagreen"/>
+</svg>
+</svg>
