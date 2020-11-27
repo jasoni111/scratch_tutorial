@@ -30,4 +30,9 @@ const Title = (props: TitleProps) => (
   <Text variant={"xLargePlus"}>{props.title}</Text>
 );
 
-export { Table, BR, Title };
+type SubTitleProps = { subTitle: string };
+const SubTitle = (props: SubTitleProps) => (
+  <Text variant={"xLarge"}>{props.subTitle}</Text>
+);
+
+export { Table, BR, Title, SubTitle };

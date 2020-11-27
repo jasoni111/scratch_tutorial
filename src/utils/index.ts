@@ -5,7 +5,7 @@ import {
   FollowMouse,
   RotateAnimation,
 } from "./animation";
-import { Table, BR, Title } from "./helper";
+import { Table, BR, Title, SubTitle } from "./helper";
 
 export {
   MoveAnimation,
@@ -16,4 +16,5 @@ export {
   Table,
   BR,
   Title,
+  SubTitle
 };
