@@ -36,11 +36,11 @@ const DirectionAndMove = () => {
           </Stack>
 
           <Stack>
-            the sprite will move towards its internal direction for the amount
+            the sprite will move towards its internal direction for the number
             of steps specified in the block. By default, every sprite points
             toward 90deg which means that they move to the right by default.
-            When the angle increases, the sprite rotate clockwise.When the angle
-            decrease, the sprite rotate anti-clockwise.
+            When the angle increases, the sprite rotates clockwise.When the
+            angle decrease, the sprites rotate anti-clockwise.
           </Stack>
 
           <Stack horizontal verticalAlign="end">

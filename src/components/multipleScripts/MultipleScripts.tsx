@@ -98,8 +98,8 @@ const MultipleScripts = () => {
 
         <Stack>
           <ImgCostumes />
-          Go to the "costum" tab. Remove the sprite of the cat and change it to
-          a ball with color you like.
+          Go to the "costumes" tab. Remove the sprite of the cat and change it
+          to a ball with a color you like.
           <ImgBall />
         </Stack>
 
@@ -124,16 +124,16 @@ const MultipleScripts = () => {
         <li>
           <ImgTouchingBouncePad /> and
           <ImgTouchingColor />
-          are the block that detect is the sprite touching another sprite. We
-          can use this to detect colision with another sprite and decide what
-          action to do. By setting different side of the sprite to different
+          are the blocks that detect is the sprite touching another sprite. We
+          can use this to detect collision with another sprite and decide what
+          action to do. By setting different sides of the sprite to a different
           color, we may know which side is the ball hitting the sprite.
         </li>
 
         <li>
           <ImgBackDrop />
-          Somwtimes you need the status of other sprites. Using <ImgBackDrop />,
-          you can gain the x, y, direction, of other sprite.
+          Sometimes you need the status of other sprites. Using <ImgBackDrop />,
+          you can gain the x, y, direction, of other sprites.
         </li>
       </ul>
       <table style={{ width: "100%" }}>

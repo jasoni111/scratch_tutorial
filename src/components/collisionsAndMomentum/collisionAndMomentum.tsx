@@ -33,7 +33,7 @@ const CollisionAndMomentum = () => {
         In the diagram, a light ray PO strikes a vertical mirror at point O, and
         the reflected ray is OQ. By projecting an imaginary line through point O
         perpendicular to the mirror, known as the normal, we can measure the
-        angle of incidence, θi and the angle of reflection, θr. The law of
+        angle of incidence, θi, and the angle of reflection, θr. The law of
         reflection states that θi = θr, or in other words, the angle of
         incidence equals the angle of reflection.
       </Stack>
@@ -41,9 +41,9 @@ const CollisionAndMomentum = () => {
       <HorizontalBounce />
 
       <Stack>
-        Bouncing is not that easy to handle for a beginer. However, it is easier
-        when we only hace to consider bouncing on a horizontal and vertical
-        plane.
+        Bouncing is not that easy to handle for a beginner. However, it is
+        easier when we only have to consider bouncing on a horizontal and
+        vertical plane.
         <br />
         {/* TODO: more explaination */}
         <table style={{ width: "100%" }}>
@@ -71,17 +71,16 @@ const CollisionAndMomentum = () => {
           </li>
 
           <li>
-            can you workout what equation we can use for vertical bounce? TODO:
-            maybe a hint/press insert equation?
+            can you work out what equation we can use for a vertical bounce?
           </li>
           <li>
-            By detecting different color, we can know is the ball bouncing off a
-            vertical surface of horizontal surface.
+            By detecting different colors, we can know if the ball bouncing off
+            a vertical surface or a horizontal surface.
           </li>
           <li>
             Note: Scratch is not actually running all scrips at the same time so
-            the colision may be buggy some time. You may yield some usespect
-            result if the delay before the clone delection or to order of ball
+            the collision may be buggy sometimes. You may yield some unexpected
+            results if the delay before the clone deletion or the order of ball
             moving changed.
           </li>
         </ul>

@@ -29,9 +29,9 @@ const Coordinate = () => {
       <BR />
 
       <Stack>
-        Each point in the grid have a pair of x-y coordinate. x-coordinate
-        corrspond to the horizontal position while y-coordinate corrspond to the
-        vertical postion of an object.
+        Each point in the grid has a pair of x-y coordinates. x-coordinate
+        corresponds to the horizontal position while y-coordinate corresponds to
+        the vertical position of an object.
       </Stack>
 
       <Stack>
@@ -46,7 +46,7 @@ const Coordinate = () => {
 
       <Stack>
         Try to move your mouse within this webpage. You will find that the cat
-        is following your mouse horizontaly. This is because you set its x-asix
+        is following your mouse horizontally. This is because you set its x-axis
         position to the x-position of your mouse.
       </Stack>
 
