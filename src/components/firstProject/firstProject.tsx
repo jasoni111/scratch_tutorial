@@ -81,6 +81,11 @@ const FirstProject = () => {
         <ImgWhenFlagClicked />
         block will be ran.
       </Stack>
+      <Stack horizontal verticalAlign="end">
+        Note that the color of blocks matches the color of the type "Events" and
+        "Control". This is the same for most blocks so looking up blocks with
+        color may be helpful.
+      </Stack>
 
       <Stack horizontal verticalAlign="end">
         <ImgForever />

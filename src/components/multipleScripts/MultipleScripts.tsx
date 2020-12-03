@@ -28,10 +28,34 @@ const ImgCode02 = () => (
 const ImgCode03 = () => (
   <Image src={require("./code03.png").default} alt="./code03.png" />
 );
+
+const ImgCode01C = () => (
+  <Image src={require("./code01C.png").default} alt="./code01C.png" />
+);
+
+const ImgCode02C = () => (
+  <Image src={require("./code02C.png").default} alt="./code02C.png" />
+);
+
+const ImgCode03C = () => (
+  <Image src={require("./code03C.png").default} alt="./code03C.png" />
+);
+
+const ImgColorPicker = () => (
+  <Image src={require("./colorPick.png").default} alt="./colorPick.png" />
+);
+
 const ImgCostumes = () => (
   <Image
     src={require("./costumes.png").default}
     alt="./costumes.png"
+    width="40%"
+  />
+);
+const ImgCostumesC = () => (
+  <Image
+    src={require("./costumesC.png").default}
+    alt="./costumesC.png"
     width="40%"
   />
 );
@@ -98,6 +122,7 @@ const MultipleScripts = () => {
 
         <Stack>
           <ImgCostumes />
+          <ImgCostumesC />
           Go to the "costumes" tab. Remove the sprite of the cat and change it
           to a ball with a color you like.
           <ImgBall />
@@ -126,8 +151,11 @@ const MultipleScripts = () => {
           <ImgTouchingColor />
           are the blocks that detect is the sprite touching another sprite. We
           can use this to detect collision with another sprite and decide what
-          action to do. By setting different sides of the sprite to a different
-          color, we may know which side is the ball hitting the sprite.
+          action to do.
+        </li>
+        <li>
+          <ImgColorPicker />
+          Use Color picker to select color
         </li>
 
         <li>
@@ -136,6 +164,22 @@ const MultipleScripts = () => {
           you can gain the x, y, direction, of other sprites.
         </li>
       </ul>
+      <table style={{ width: "100%" }}>
+        <thead>
+          <tr>
+            <th>ball</th>
+            <th>BouncePad</th>
+            <th>BouncePad2</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>{<ImgCode01C />}</td>
+            <td>{<ImgCode02C />}</td>
+            <td>{<ImgCode03C />}</td>
+          </tr>
+        </tbody>
+      </table>
       <table style={{ width: "100%" }}>
         <thead>
           <tr>

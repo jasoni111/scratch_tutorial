@@ -9,11 +9,18 @@ import {
   Title,
 } from "../../utils";
 
+const ImgCode2C = () => (
+  <Image src={require("./code02C.png").default} alt="./code02.png" />
+);
+
 const ImgCode2 = () => (
   <Image src={require("./code02.png").default} alt="./code02.png" />
 );
 const ImgCode3 = () => (
   <Image src={require("./code03.png").default} alt="./code03.png" />
+);
+const ImgCode3C = () => (
+  <Image src={require("./code03C.png").default} alt="./code03.png" />
 );
 
 const Coordinate = () => {
@@ -24,7 +31,14 @@ const Coordinate = () => {
 
       <BR />
 
-      <Table code={<ImgCode2 />} result={<CoordinateAnimation />} />
+      <Table
+        code={
+          <>
+            <ImgCode2 /> <ImgCode2C />
+          </>
+        }
+        result={<CoordinateAnimation />}
+      />
 
       <BR />
 
@@ -40,7 +54,15 @@ const Coordinate = () => {
 
       <BR />
 
-      <Table code={<ImgCode3 />} result={<FollowMouse />} />
+      <Table
+        code={
+          <>
+            <ImgCode3 />
+            <ImgCode3C />
+          </>
+        }
+        result={<FollowMouse />}
+      />
 
       <BR />
 

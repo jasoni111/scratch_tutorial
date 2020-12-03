@@ -16,8 +16,19 @@ const ImgDirectionDiagram = () => (
     alt="./Direction_Diagram.png"
   />
 );
-const ImgChangeDir = () => (
-  <Image src={require("./changeDir.svg").default} alt="./changeDir.svg" />
+const ImgCodeChangeDir = () => (
+  <>
+    <Image src={require("./changeDir.svg").default} alt="./changeDir.svg" />
+  </>
+);
+
+const ImgCodeChangeDirC = () => (
+  <>
+    <Image
+      src={require("./codeChangeDirC.png").default}
+      alt="./codeChangeDirC.png"
+    />
+  </>
 );
 
 const DirectionAndMove = () => {
@@ -61,7 +72,12 @@ const DirectionAndMove = () => {
       <BR />
 
       <Table
-        code={<ImgChangeDir />}
+        code={
+          <>
+            <ImgCodeChangeDir />
+            <ImgCodeChangeDirC />
+          </>
+        }
         result={<RotateAnimation clockwise={true} />}
       />
 

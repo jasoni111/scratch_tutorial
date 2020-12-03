@@ -10,6 +10,10 @@ const ImgCloneWithoutSignal = () => (
   />
 );
 
+const ImgCodeCloneC = () => (
+  <Image src={require("./codeCloneC.png").default} alt="./codeCloneC.png" />
+);
+
 const Clone = () => {
   return (
     <Stack>
@@ -17,6 +21,7 @@ const Clone = () => {
       <Title title={"複製"} />
       <BR />
       <ImgCloneWithoutSignal />
+      <ImgCodeCloneC />
       <BR />
       <Stack>
         Clone is not an usual way to create object in most programming language
@@ -30,19 +35,9 @@ const Clone = () => {
           <li>There can only 300 clones at once</li>
         </ul>
         Here, using nested for loop and clone, you may create the desired amount
-        of sprites without menuly copying each of them. Try to create the
-        following:(TODO: a flying ball that destroy stuff on the path)
+        of sprites without menuly copying each of them.
       </Stack>
       <BR />
-
-      <iframe
-        src="https://scratch.mit.edu/projects/455579061/embed"
-        allowTransparency={true}
-        width="485"
-        height="402"
-        frameBorder="0"
-        scrolling="no"
-      ></iframe>
 
       {/* <CloneAnimation /> */}
     </Stack>

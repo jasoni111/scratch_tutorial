@@ -6,6 +6,10 @@ import { BR, Title } from "../../utils";
 const Variable = () => {
   return (
     <Stack>
+      <>
+        <Title title={"Challenging Tasks"} />
+        <BR />
+      </>
       <Title title={"Variable"} />
       <Title title={"變量"} />
       <BR />
@@ -31,14 +35,6 @@ const Variable = () => {
             Use the change score by () block, you can increse the score when the
             ball destroy a block.
           </li>
-        </ul>
-        Try it yourself:
-        <ul>
-          <li> display "you win" when you have destroied all blocks.</li>
-          <li>
-            increase the speed of your ball when you reach a specific score.
-          </li>
-          <li>display "you lose" when you lose.</li>
         </ul>
       </Stack>
       <BR />

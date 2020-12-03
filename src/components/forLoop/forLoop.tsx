@@ -6,8 +6,24 @@ import { BR, Title } from "../../utils";
 const ForLoop = () => {
   return (
     <Stack>
+      <>
+        <hr />
+        <Title title={"Second Section"} />
+        <BR />
+        In this section, we will learn for loop and clone function to create the
+        following:
+        <iframe
+          src="https://scratch.mit.edu/projects/455579061/embed"
+          allowTransparency={true}
+          width="485"
+          height="402"
+          frameBorder="0"
+          scrolling="no"
+          title="forloop and nested for"
+        ></iframe>
+      </>
       <Title title={"For Loop and Nested Loop"} />
-      <Title title={"無限循環"} />
+      <Title title={"循環"} />
       <BR />
       <Stack>
         <ul>
