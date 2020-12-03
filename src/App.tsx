@@ -22,12 +22,9 @@ function App() {
         <Coordinate />
         <DirectionAndMove />
         <MultipleScripts />
-
         <ForLoop />
         <Clone />
-
         <CollisionAndMomentum />
-
         <Variable />
         <Event />
       </Stack>

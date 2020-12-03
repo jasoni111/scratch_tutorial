@@ -47,7 +47,7 @@ const FirstProject = () => {
           <a href="https://scratch.mit.edu/" rel="noreferrer" target="_blank">
             scratch
           </a>{" "}
-          and press "Create" to start you first Scratch project
+          and press "Create" to start your first Scratch project
         </Text>
         <Text>
           前往{" "}
@@ -93,7 +93,7 @@ const FirstProject = () => {
       </Stack>
 
       <Stack horizontal verticalAlign="end">
-        This is commonly used to create a infintie loop and keep updating
+        This is commonly used to create an infintie loop and keep updating
         things.
       </Stack>
 

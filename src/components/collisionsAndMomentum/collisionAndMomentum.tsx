@@ -1,5 +1,5 @@
 import React from "react";
-import { Stack, Image } from "@fluentui/react";
+import { Stack, Image, Text } from "@fluentui/react";
 
 import { HorizontalBounce, BR, Title } from "../../utils";
 
@@ -22,77 +22,88 @@ const ImgReflectionAngles = () => (
 const CollisionAndMomentum = () => {
   return (
     <Stack horizontalAlign="start">
-      <Title title={"Collisions and Momentum: Bouncing Balls"} />
-
+      <Title title={"Collisions: Bouncing Balls"} />
+      <Title title={"碰撞：彈跳球"} />
       <BR />
-
       <ImgReflectionAngles />
-
       {/* TODO: make this to easy to read */}
-      <Stack>
-        In the diagram, a light ray PO strikes a vertical mirror at point O, and
+      <Text>
+        In the diagram, light ray PO strikes a vertical mirror at point O, and
         the reflected ray is OQ. By projecting an imaginary line through point O
         perpendicular to the mirror, known as the normal, we can measure the
         angle of incidence, θi, and the angle of reflection, θr. The law of
         reflection states that θi = θr, or in other words, the angle of
         incidence equals the angle of reflection.
-      </Stack>
-
+        <br />
+        在圖中，光線PO於位置O擊中一塊垂直的鏡面，放射的光線為OQ。透過延伸一條穿過O並垂直於鏡面的虛擬線，我們可以找到入射角θi及反射角θr。
+        反射定律定義了θi等於θr，即入射角等於反射角。
+      </Text>
       <HorizontalBounce />
-
-      <Stack>
+      <Text>
         Bouncing is not that easy to handle for a beginner. However, it is
         easier when we only have to consider bouncing on a horizontal and
         vertical plane.
         <br />
-        {/* TODO: more explaination */}
-        <table style={{ width: "100%" }}>
-          <thead>
-            <tr>
-              <th>ball</th>
-              <th>Sprite</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>{<ImgCodeBall />}</td>
-              <td>{<ImgCodeSprite />}</td>
-            </tr>
-          </tbody>
-        </table>
-        <ul>
-          <li>
-            When bouncing on a horizontal plane, the equation we use is setting
-            the direction to (180-θ). Geometrically, this means that the sprite
-            starts from facing doward, and start rotating anit-colckwise the
-            original angle(the outer arrow). In the figure above, x-axis acts as
-            the normal to the surface and the doted arrow shows the reflected
-            direction.
-          </li>
+        設計一個擬真的反彈機制對初學者來說十分困難，但我們可以將之分為垂直及平面來處理。
+      </Text>
+      {/* TODO: more explaination */}
+      <table style={{ width: "100%" }}>
+        <thead>
+          <tr>
+            <th>ball 球</th>
+            <th>Sprite 角色</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>{<ImgCodeBall />}</td>
+            <td>{<ImgCodeSprite />}</td>
+          </tr>
+        </tbody>
+      </table>
+      <Text>
+        When bouncing on a horizontal plane, the equation we use is setting the
+        direction to (180-θ). Geometrically, this means that the sprite starts
+        from facing downward, and start rotating anit-colckwise the original
+        angle(the outer arrow). In the figure above, x-axis acts as the normal
+        to the surface and the dotted arrow shows the reflected direction.
+        <br />
+        在水平面上彈跳時，我們使用的方程式是將方向設置為（180-θ）。
+        從幾何學上講，這意味著角色又面向下開始，然後反方向旋轉（外箭頭）。
+        在上圖中，x軸用作表面的法線，點箭頭表示反射方向。
+      </Text>
 
-          <li>
-            can you work out what equation we can use for a vertical bounce?
-          </li>
-          <li>
-            By detecting different colors, we can know if the ball bouncing off
-            a vertical surface or a horizontal surface.
-          </li>
-          <li>
-            Note: Scratch is not actually running all scrips at the same time so
-            the collision may be buggy sometimes. You may yield some unexpected
-            results if the delay before the clone deletion or the order of ball
-            moving changed.
-          </li>
-        </ul>
-        <iframe
-          src="https://scratch.mit.edu/projects/455640703/embed"
-          allowTransparency={true}
-          width="485"
-          height="402"
-          frameBorder="0"
-          scrolling="no"
-        ></iframe>
-      </Stack>
+      <Text>
+        Try to work out what equation we can use for a vertical bounce!
+        <br />
+        試試找到垂直跳動方程式！
+      </Text>
+
+      <Text>
+        By detecting different colors, we can know if the ball bouncing off a
+        vertical surface or a horizontal surface.
+        <br />
+        通過檢測不同的顏色，我們可以知道球是從垂直表面還是從水平表面彈起。
+      </Text>
+
+      <Text>
+        Note: Scratch is not actually running all scripts at the same time so
+        the collision may be buggy sometimes. You may yield some unexpected
+        results if the delay before the clone deletion or the order of ball
+        moving changed.
+        <br />
+        注意：Scratch並沒有同時運行所有劇本，因此 有時碰撞會有bug。
+        如果克隆刪除之前的延遲或球順序改變了，這可能會導致一些意想不到的結果。
+      </Text>
+
+      <iframe
+        src="https://scratch.mit.edu/projects/455640703/embed"
+        allowTransparency={true}
+        width="485"
+        height="402"
+        frameBorder="0"
+        scrolling="no"
+      ></iframe>
     </Stack>
   );
 };

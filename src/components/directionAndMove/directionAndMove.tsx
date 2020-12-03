@@ -42,7 +42,7 @@ const DirectionAndMove = () => {
       <Stack horizontal>
         <Stack>
           <Stack horizontal verticalAlign="end">
-            Every sprite in Scratch have an internal direction. When the block
+            Every sprite in Scratch has an internal direction. When the block
             <ImgMove /> is executed,
           </Stack>
 
