@@ -7,7 +7,7 @@ const ForLoop = () => {
   return (
     <Stack>
       <>
-        <hr />
+        <BR />
         <Title title={"Second Section"} />
         <BR />
         In this section, we will learn for loop and clone function to create the
