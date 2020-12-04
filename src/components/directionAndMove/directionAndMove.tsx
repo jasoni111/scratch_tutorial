@@ -17,18 +17,14 @@ const ImgDirectionDiagram = () => (
   />
 );
 const ImgCodeChangeDir = () => (
-  <>
-    <Image src={require("./changeDir.svg").default} alt="./changeDir.svg" />
-  </>
+  <Image src={require("./changeDir.svg").default} alt="./changeDir.svg" />
 );
 
 const ImgCodeChangeDirC = () => (
-  <>
-    <Image
-      src={require("./codeChangeDirC.png").default}
-      alt="./codeChangeDirC.png"
-    />
-  </>
+  <Image
+    src={require("./codeChangeDirC.png").default}
+    alt="./codeChangeDirC.png"
+  />
 );
 
 const DirectionAndMove = () => {
@@ -53,6 +49,8 @@ const DirectionAndMove = () => {
             When the angle increases, the sprite rotates clockwise.When the
             angle decrease, the sprites rotate anti-clockwise.
           </Stack>
+
+          <BR />
 
           <Stack horizontal verticalAlign="end">
             每一個Scratch角色都有自己的方向。當方塊 <ImgMove />{" "}

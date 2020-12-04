@@ -6,11 +6,19 @@ import ToDownload from "./ToDownload.svg";
 import BouncePad from "./BouncePad.svg";
 
 const ImgUpload = () => (
-  <Image src={require("./upload.png").default} alt="./upload.png" />
+  <Image
+    style={{ width: "400px" }}
+    src={require("./upload.png").default}
+    alt="./upload.png"
+  />
 );
 
 const ImgResult = () => (
-  <Image src={require("./result.png").default} alt="./result.png" width="40%" />
+  <Image
+    style={{ width: "400px" }}
+    src={require("./result.png").default}
+    alt="./result.png"
+  />
 );
 
 const ImgBall = () => (
@@ -118,113 +126,163 @@ const MultipleScripts = () => {
     <Stack>
       <Title title={"Using multiplescripts and colision"} />
       <Title title={"使用多個劇本及碰撞感應"} />
+
+      <BR />
+
       <Stack>
         <SubTitle subTitle={"Create Ball sprite"} />
         <SubTitle subTitle={"創建球型角色"} />
-
         <Stack>
-          <ImgCostumes />
-          <ImgCostumesC />
+          <Stack horizontal>
+            <ImgCostumes />
+            <ImgCostumesC />
+          </Stack>
           Go to the "costumes" tab. Remove the sprite of the cat and change it
           to a ball with a color you like.
           <br />
           轉到“造型”頁。 刪除貓的角色，並將其更改為有顏色的球。
           <ImgBall />
         </Stack>
+      </Stack>
 
+      <BR />
+      <BR />
+
+      <Stack>
         <SubTitle subTitle={"Create Bouncing pad sprite"} />
         <SubTitle subTitle={"創建板角色"} />
-        <Stack>
-          Next, we are going to import a new sprite.
-          <br />
-          然後，我們載入一個新角色。
-          <ImgBouncePad />
-          <ImgUpload />
-          You should see that a sprite of bounce pad is added. Now repeat to add
-          another bounce pad. You should see something like this:
-          <br />
-          你應可見到舞台上新加了一塊板形狀的角色，接下來新增另一塊板。然後，你的舞台便如下圖所示：
-          <ImgResult />
+        <Stack horizontal>
+          <Stack>
+            Next, we are going to import a new sprite.
+            <br />
+            然後，我們載入一個新角色。
+            <ImgBouncePad />
+            <BR />
+            You should see that a sprite of bounce pad is added. Now repeat to
+            add another bounce pad. You should see something like this:
+            <BR />
+            你應可見到舞台上新加了一塊板形狀的角色，接下來新增另一塊板。然後，你的舞台便如下右圖所示.
+            <br style={{ height: "20px" }} />
+            Note that each sprite will have its own script. Click on the icons
+            to swich between scripts.
+            <br />
+            注意每個角色都有自己的劇本。你可以按不同角色以瀏覽各自的劇本。
+          </Stack>
+          <Stack>
+            <ImgUpload />
+            <ImgResult />
+          </Stack>
         </Stack>
       </Stack>
-      <SubTitle subTitle={"Create Bouncing pad sprite 2"} />
-      <SubTitle subTitle={"創建板角色 2"} />
-      <Text>
-        <ImgSelect />
-        Note that each sprite will have its own script. Click on the icons to
-        swich between scripts.
-        <br />
-        注意每個角色都有自己的劇本。你可以按不同角色以瀏覽各自的劇本。
-      </Text>
-      <Text>
-        <ImgTouchingBouncePad /> and
-        <ImgTouchingColor />
-        are the blocks that detect if the sprite is touching another sprite. We can
-        use this to detect collision with another sprite and decide what action
-        to do.
-      </Text>
-      <Text>
-        {" "}
-        <ImgTouchingBouncePad /> 和
-        <ImgTouchingColor />
-        是用來感應碰撞的方塊，我們可以用這些方塊來設置角色碰撞時要執行的動作。
-      </Text>
-      <Text>
-        {" "}
-        <ImgColorPicker />
-        Use Color picker to select color 用選擇器來選擇顏色
-      </Text>
-      <Text>
-        {" "}
-        Sometimes you need to retrieve the status of other sprites. Using <ImgBackDrop />,
-        you can get the x, y, direction, of other sprites.
-      </Text>
-      <Text>
-        {" "}
-        有時候你需要取得其他角色的狀態。你可以用
-        <ImgBackDrop />
-        來取得其他角色的X，Y座標，以及方向。
-      </Text>{" "}
-      <table style={{ width: "100%" }}>
-        <thead>
-          <tr>
-            <th>ball 球</th>
-            <th>BouncePad 板</th>
-            <th>BouncePad2 板2</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>{<ImgCode01C />}</td>
-            <td>{<ImgCode02C />}</td>
-            <td>{<ImgCode03C />}</td>
-          </tr>
-        </tbody>
-      </table>
-      <table style={{ width: "100%" }}>
-        <thead>
-          <tr>
-            <th>ball 球</th>
-            <th>BouncePad 板</th>
-            <th>BouncePad2 板2</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>{<ImgCode01 />}</td>
-            <td>{<ImgCode02 />}</td>
-            <td>{<ImgCode03 />}</td>
-          </tr>
-        </tbody>
-      </table>
-      Expected result:
-      <br />
-      預期結果
-      <Embeded />
-      Note that the bouncing effect is not that natural. We will tackle this
-      later.
-      <br />
-      你應可留意到碰撞過程並不自然，我們會在其他章節解決這個問題。
+
+      <BR />
+      <BR />
+
+      <Stack>
+        <SubTitle subTitle={"Create Bouncing pad sprite 2"} />
+        <SubTitle subTitle={"創建板角色 2"} />
+        <Stack horizontal>
+          <Stack>
+            <Text>
+              <ImgTouchingBouncePad /> and
+              <ImgTouchingColor />
+              are the blocks that detect if the sprite is touching another
+              sprite. We can use this to detect collision with another sprite
+              and decide what action to do.
+            </Text>
+            <BR />
+            <Text>
+              <ImgTouchingBouncePad /> 和
+              <ImgTouchingColor />
+              是用來感應碰撞的方塊，我們可以用這些方塊來設置角色碰撞時要執行的動作。
+            </Text>
+          </Stack>
+          <Stack>
+            <ImgSelect />
+          </Stack>
+        </Stack>
+
+        <BR />
+
+        <Stack horizontal>
+          <Stack style={{ width: "500px" }}>
+            <Text>Use Color picker to select color 用選擇器來選擇顏色</Text>
+          </Stack>
+
+          <Stack>
+            <ImgColorPicker />
+          </Stack>
+        </Stack>
+
+        <BR />
+
+        <Stack>
+          <Text>
+            Sometimes you need to retrieve the status of other sprites. Using{" "}
+            <ImgBackDrop />, you can get the x, y, direction, of other sprites.
+          </Text>
+          <Text>
+            有時候你需要取得其他角色的狀態。你可以用
+            <ImgBackDrop />
+            來取得其他角色的X，Y座標，以及方向。
+          </Text>
+        </Stack>
+
+        <BR />
+
+        <Stack horizontalAlign="center">
+          <table style={{ width: "100%" }}>
+            <thead>
+              <tr>
+                <th>ball 球</th>
+                <th>BouncePad 板</th>
+                <th>BouncePad2 板2</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>{<ImgCode01C />}</td>
+                <td>{<ImgCode02C />}</td>
+                <td>{<ImgCode03C />}</td>
+              </tr>
+            </tbody>
+          </table>
+          <table style={{ width: "100%" }}>
+            <thead>
+              <tr>
+                <th>ball 球</th>
+                <th>BouncePad 板</th>
+                <th>BouncePad2 板2</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>{<ImgCode01 />}</td>
+                <td>{<ImgCode02 />}</td>
+                <td>{<ImgCode03 />}</td>
+              </tr>
+            </tbody>
+          </table>
+        </Stack>
+
+        <BR />
+        <Stack horizontal>
+          <Text style={{ width: "500px" }}>
+            Expected result:
+            <br />
+            預期結果
+            <br />
+            Note that the bouncing effect is not that natural. We will tackle
+            this later.
+            <br />
+            你應可留意到碰撞過程並不自然，我們會在其他章節解決這個問題。
+          </Text>
+          <Embeded />
+        </Stack>
+      </Stack>
+
+      <BR />
+
       <Stack>
         <SubTitle subTitle={"Adding sprite for breakout"} />
         <SubTitle subTitle={"為本遊戲新增角色"} />

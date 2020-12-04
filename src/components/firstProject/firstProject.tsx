@@ -40,22 +40,24 @@ const FirstProject = () => {
 
       <BR />
 
-      <Stack>
+      <Stack horizontal>
+        <Stack>
+          <Text>
+            Go to{" "}
+            <a href="https://scratch.mit.edu/" rel="noreferrer" target="_blank">
+              scratch
+            </a>{" "}
+            and press "Create" to start your first Scratch project
+          </Text>
+          <Text>
+            前往{" "}
+            <a href="https://scratch.mit.edu/" rel="noreferrer" target="_blank">
+              scratch
+            </a>{" "}
+            ，然後按 ”創建“ 以開始你第一個Scratch專案
+          </Text>
+        </Stack>
         <ImgCreate />
-        <Text>
-          Go to{" "}
-          <a href="https://scratch.mit.edu/" rel="noreferrer" target="_blank">
-            scratch
-          </a>{" "}
-          and press "Create" to start your first Scratch project
-        </Text>
-        <Text>
-          前往{" "}
-          <a href="https://scratch.mit.edu/" rel="noreferrer" target="_blank">
-            scratch
-          </a>{" "}
-          ，然後按 ”創建“ 以開始你第一個Scratch專案
-        </Text>
       </Stack>
 
       <BR />
