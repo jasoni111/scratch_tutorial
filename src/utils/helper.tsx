@@ -5,12 +5,12 @@ type TProps = {
   element: JSX.Element | String;
 };
 const Th = (props: TProps) => (
-  <th style={{ "text-align": "center", "vertical-align": "middle" }}>
+  <th style={{ textAlign: "center", verticalAlign: "middle" }}>
     {props.element}
   </th>
 );
 const Td = (props: TProps) => (
-  <td style={{ "text-align": "center", "vertical-align": "middle" }}>
+  <td style={{ textAlign: "center", verticalAlign: "middle" }}>
     {props.element}
   </td>
 );
