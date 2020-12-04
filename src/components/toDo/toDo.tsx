@@ -5,9 +5,8 @@ import { BR, Title } from "../../utils";
 
 const TODO = () => {
   return (
-    <Stack>
-      <Title title={"TODO"} />
-      <Stack>TODO: Change Icon & page name</Stack>
+    <Stack horizontalAlign="center">
+      <Title title={"SCRATCH Workshop for Beginners"} />
       <BR />
     </Stack>
   );

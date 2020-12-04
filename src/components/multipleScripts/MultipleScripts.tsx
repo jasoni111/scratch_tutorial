@@ -75,6 +75,13 @@ const ImgBackDrop = () => (
     height="50px"
   />
 );
+const ImgBackDropTC = () => (
+  <img
+    src={require("./stage_tc.png").default}
+    alt="./stage_tc.png"
+    height="40px"
+  />
+);
 
 const ImgDownload = () => (
   <a href={ToDownload} download="violet.svg">
@@ -106,6 +113,22 @@ const ImgTouchingColor = () => (
   <img
     src={require("./TouchingColor.png").default}
     alt="./TouchingColor.png"
+    height="50px"
+  />
+);
+
+const ImgTouchingBouncePadTC = () => (
+  <img
+    src={require("./bounce_tc.png").default}
+    alt="./bounce_tc.png"
+    height="50px"
+  />
+);
+
+const ImgTouchingColorTC = () => (
+  <img
+    src={require("./bounce_pad_tc.png").default}
+    alt="./bounce_pad_tc.png"
     height="50px"
   />
 );
@@ -192,8 +215,8 @@ const MultipleScripts = () => {
             </Text>
             <BR />
             <Text>
-              <ImgTouchingBouncePad /> 和
-              <ImgTouchingColor />
+              <ImgTouchingBouncePadTC /> 和
+              <ImgTouchingColorTC />
               是用來感應碰撞的方塊，我們可以用這些方塊來設置角色碰撞時要執行的動作。
             </Text>
           </Stack>
@@ -223,7 +246,7 @@ const MultipleScripts = () => {
           </Text>
           <Text>
             有時候你需要取得其他角色的狀態。你可以用
-            <ImgBackDrop />
+            <ImgBackDropTC />
             來取得其他角色的X，Y座標，以及方向。
           </Text>
         </Stack>

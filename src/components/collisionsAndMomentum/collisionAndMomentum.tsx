@@ -1,7 +1,7 @@
 import React from "react";
 import { Stack, Image, Text } from "@fluentui/react";
 
-import { HorizontalBounce, BR, Title } from "../../utils";
+import { HorizontalBounce, BR, Title, Td } from "../../utils";
 
 const ImgCodeBall = () => (
   <Image
@@ -10,12 +10,26 @@ const ImgCodeBall = () => (
     alt="./codeBall.png"
   />
 );
-
 const ImgCodeSprite = () => (
   <Image
     height="450px"
     src={require("./codeSprite.png").default}
     alt="./codeSprite.png"
+  />
+);
+
+const ImgCodeBallTC = () => (
+  <Image
+    height="450px"
+    src={require("./demo_tc.png").default}
+    alt="./demo_tc.png"
+  />
+);
+const ImgCodeSpriteTC = () => (
+  <Image
+    height="450px"
+    src={require("./clone_tc.png").default}
+    alt="./clone_tc.png"
   />
 );
 
@@ -76,8 +90,12 @@ const CollisionAndMomentum = () => {
           </thead>
           <tbody>
             <tr>
-              <td>{<ImgCodeBall />}</td>
-              <td>{<ImgCodeSprite />}</td>
+              <Td element={<ImgCodeBall />} />
+              <Td element={<ImgCodeSprite />} />
+            </tr>
+            <tr>
+              <Td element={<ImgCodeBallTC />} />
+              <Td element={<ImgCodeSpriteTC />} />
             </tr>
           </tbody>
         </table>

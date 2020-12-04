@@ -10,6 +10,13 @@ const ImgMove = () => (
     style={{ height: "50px" }}
   />
 );
+const ImgMoveTC = () => (
+  <Image
+    src={require("./move_tc.png").default}
+    alt="./move_tc.png"
+    style={{ height: "50px" }}
+  />
+);
 const ImgDirectionDiagram = () => (
   <Image
     src={require("./Direction_Diagram.png").default}
@@ -53,7 +60,7 @@ const DirectionAndMove = () => {
           <BR />
 
           <Stack horizontal verticalAlign="end">
-            每一個Scratch角色都有自己的方向。當方塊 <ImgMove />{" "}
+            每一個Scratch角色都有自己的方向。當方塊 <ImgMoveTC />{" "}
             執行時，該角色會沿著內部方向移動方塊指定
           </Stack>
 

@@ -4,9 +4,9 @@ import {
   HorizontalBounce,
   FollowMouse,
   RotateAnimation,
-  CloneAnimation
+  CloneAnimation,
 } from "./animation";
-import { Table, BR, Title, SubTitle } from "./helper";
+import { Table, BR, Title, SubTitle, Td } from "./helper";
 
 export {
   MoveAnimation,
@@ -18,5 +18,6 @@ export {
   Table,
   BR,
   Title,
-  SubTitle
+  SubTitle,
+  Td,
 };

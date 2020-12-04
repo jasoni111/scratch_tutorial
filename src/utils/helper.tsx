@@ -49,4 +49,4 @@ const SubTitle = (props: SubTitleProps) => (
   <Text variant={"xLarge"}>{props.subTitle}</Text>
 );
 
-export { Table, BR, Title, SubTitle };
+export { Table, BR, Title, SubTitle, Td };

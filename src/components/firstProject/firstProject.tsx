@@ -16,6 +16,15 @@ const ImgWhenFlagClicked = () => (
     style={{ height: "50px" }}
   />
 );
+
+const ImgWhenFlagTCClicked = () => (
+  <Image
+    src={require("./start_tc.png").default}
+    alt={"./start_tc.png"}
+    style={{ height: "50px" }}
+  />
+);
+
 const ImgFlag = () => (
   <Image
     src={require("./flag.svg").default}
@@ -28,6 +37,13 @@ const ImgForever = () => (
   <Image
     src={require("./forever.svg").default}
     alt={"./forever.svg"}
+    style={{ height: "50px" }}
+  />
+);
+const ImgForeverTC = () => (
+  <Image
+    src={require("./repeat_tc.png").default}
+    alt={"./repeat_tc.png"}
     style={{ height: "50px" }}
   />
 );
@@ -102,8 +118,8 @@ const FirstProject = () => {
       <BR />
 
       <Stack horizontal verticalAlign="end">
-        <ImgWhenFlagClicked /> 可以在 “事件” 部分找到，而
-        <ImgForever /> 可以在 “控制” 部分找到。按左方圖像拖放上述方塊，
+        <ImgWhenFlagTCClicked /> 可以在 “事件” 部分找到，而
+        <ImgForeverTC /> 可以在 “控制” 部分找到。按左方圖像拖放上述方塊，
       </Stack>
 
       <Stack horizontal verticalAlign="end">
@@ -112,12 +128,12 @@ const FirstProject = () => {
         以執行該程序。當
         <ImgFlag />
         按下時，Scratch會執行
-        <ImgWhenFlagClicked />
+        <ImgWhenFlagTCClicked />
         下方的方塊。
       </Stack>
 
       <Stack horizontal verticalAlign="end">
-        <ImgForever />
+        <ImgForeverTC />
         是一個控制方塊，它會不停執行包裹著的方塊，常用來創建一個無限循環以及更新物件。
       </Stack>
 
