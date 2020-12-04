@@ -15,8 +15,8 @@ import { MultipleScripts } from "./components/multipleScripts";
 
 function App() {
   return (
-    <Stack className="App" horizontalAlign="center">
-      <Stack style={{ width: "1000px" }}>
+    <Stack className="App" style={{ "align-items": "center" }}>
+      <Stack style={{ maxWidth: "1000px", padding: "1rem" }}>
         <TODO />
         <FirstProject />
         <Coordinate />

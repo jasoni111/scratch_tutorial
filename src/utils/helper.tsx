@@ -1,6 +1,20 @@
 import React from "react";
 import { Stack, Text } from "@fluentui/react";
 
+type TProps = {
+  element: JSX.Element | String;
+};
+const Th = (props: TProps) => (
+  <th style={{ "text-align": "center", "vertical-align": "middle" }}>
+    {props.element}
+  </th>
+);
+const Td = (props: TProps) => (
+  <td style={{ "text-align": "center", "vertical-align": "middle" }}>
+    {props.element}
+  </td>
+);
+
 type TableProps = {
   code: JSX.Element;
   result: JSX.Element;
@@ -10,14 +24,14 @@ const Table = (props: TableProps) => (
   <table style={{ width: "100%" }}>
     <thead>
       <tr>
-        <th>code</th>
-        <th>expected result</th>
+        <Th element="Code 劇本" />
+        <Th element="Expected result 預期結果" />
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>{props.code}</td>
-        <td>{props.result}</td>
+        <Td element={props.code} />
+        <Td element={props.result} />
       </tr>
     </tbody>
   </table>
