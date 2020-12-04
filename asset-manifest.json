@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/scratch_tutorial/static/css/main.c464de6b.chunk.css",
-    "main.js": "/scratch_tutorial/static/js/main.55086012.chunk.js",
-    "main.js.map": "/scratch_tutorial/static/js/main.55086012.chunk.js.map",
-    "runtime-main.js": "/scratch_tutorial/static/js/runtime-main.e5657c7f.js",
-    "runtime-main.js.map": "/scratch_tutorial/static/js/runtime-main.e5657c7f.js.map",
-    "static/js/2.4d4292ec.chunk.js": "/scratch_tutorial/static/js/2.4d4292ec.chunk.js",
-    "static/js/2.4d4292ec.chunk.js.map": "/scratch_tutorial/static/js/2.4d4292ec.chunk.js.map",
-    "static/js/3.26f6ca7d.chunk.js": "/scratch_tutorial/static/js/3.26f6ca7d.chunk.js",
-    "static/js/3.26f6ca7d.chunk.js.map": "/scratch_tutorial/static/js/3.26f6ca7d.chunk.js.map",
+    "main.js": "/scratch_tutorial/static/js/main.1d5d96ac.chunk.js",
+    "main.js.map": "/scratch_tutorial/static/js/main.1d5d96ac.chunk.js.map",
+    "runtime-main.js": "/scratch_tutorial/static/js/runtime-main.550cd606.js",
+    "runtime-main.js.map": "/scratch_tutorial/static/js/runtime-main.550cd606.js.map",
+    "static/js/2.1429001d.chunk.js": "/scratch_tutorial/static/js/2.1429001d.chunk.js",
+    "static/js/2.1429001d.chunk.js.map": "/scratch_tutorial/static/js/2.1429001d.chunk.js.map",
+    "static/js/3.a89c2612.chunk.js": "/scratch_tutorial/static/js/3.a89c2612.chunk.js",
+    "static/js/3.a89c2612.chunk.js.map": "/scratch_tutorial/static/js/3.a89c2612.chunk.js.map",
     "index.html": "/scratch_tutorial/index.html",
     "static/css/main.c464de6b.chunk.css.map": "/scratch_tutorial/static/css/main.c464de6b.chunk.css.map",
-    "static/js/2.4d4292ec.chunk.js.LICENSE.txt": "/scratch_tutorial/static/js/2.4d4292ec.chunk.js.LICENSE.txt",
+    "static/js/2.1429001d.chunk.js.LICENSE.txt": "/scratch_tutorial/static/js/2.1429001d.chunk.js.LICENSE.txt",
     "static/media/BouncePad.bab314e0.svg": "/scratch_tutorial/static/media/BouncePad.bab314e0.svg",
     "static/media/Reflection_angles.svg": "/scratch_tutorial/static/media/Reflection_angles.799d3fc1.svg",
     "static/media/ScratchCat.png": "/scratch_tutorial/static/media/ScratchCat.17b4b681.png",
@@ -19,6 +19,7 @@
     "static/media/ToDownload.61b5c0d4.svg": "/scratch_tutorial/static/media/ToDownload.61b5c0d4.svg",
     "static/media/ball.png": "/scratch_tutorial/static/media/ball.60e98386.png",
     "static/media/changeDir.svg": "/scratch_tutorial/static/media/changeDir.72ca0794.svg",
+    "static/media/clone_tc.png": "/scratch_tutorial/static/media/clone_tc.721c9148.png",
     "static/media/clone_without_signal.png": "/scratch_tutorial/static/media/clone_without_signal.5f59a264.png",
     "static/media/code01.png": "/scratch_tutorial/static/media/code01.c1ed421c.png",
     "static/media/code01C.png": "/scratch_tutorial/static/media/code01C.468c113a.png",
@@ -33,6 +34,7 @@
     "static/media/codeSprite.png": "/scratch_tutorial/static/media/codeSprite.66a2add5.png",
     "static/media/colorPick.png": "/scratch_tutorial/static/media/colorPick.d1229f92.png",
     "static/media/costumes.png": "/scratch_tutorial/static/media/costumes.77ab13b2.png",
+    "static/media/demo_tc.png": "/scratch_tutorial/static/media/demo_tc.5878b59a.png",
     "static/media/flag.svg": "/scratch_tutorial/static/media/flag.9a8023df.svg",
     "static/media/forever.svg": "/scratch_tutorial/static/media/forever.0be1bf84.svg",
     "static/media/incr_variable.png": "/scratch_tutorial/static/media/incr_variable.c91a8153.png",
@@ -41,9 +43,9 @@
     "static/media/whenFlagClicked.svg": "/scratch_tutorial/static/media/whenFlagClicked.a19b93d8.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e5657c7f.js",
-    "static/js/2.4d4292ec.chunk.js",
+    "static/js/runtime-main.550cd606.js",
+    "static/js/2.1429001d.chunk.js",
     "static/css/main.c464de6b.chunk.css",
-    "static/js/main.55086012.chunk.js"
+    "static/js/main.1d5d96ac.chunk.js"
   ]
 }
